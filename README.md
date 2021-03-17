@@ -32,5 +32,13 @@ Step 2:
  - run: ng build (to build the dist)
  - cd .. (back to the `job-posting-webapp` directory)
  - run: `mvn spring-boot:run`
- - port: 8083
+ - port: 8083 (Port to access the UI)
+
+       ---OR---
+ (one more option to run the UI directly)
+ - after installing dependencies. (npm i)
+ - just run: `ng s`
+ - port: 4200 (UI will be up at this port)
+
+
    
